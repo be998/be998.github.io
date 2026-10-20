@@ -1,0 +1,450 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Guide</title>
+</head>
+<body>
+    <header>
+        <h1>Minecraft Bedrock Guide</h1>
+        <p>A beginner-friendly guide to surviving, building, and exploring.</p>
+    </header>
+    <h2>my other websites</h2>
+    <p>https://minecraftgamer45mods.netlify.app/</p>
+    <main>
+        <nav aria-label="Guide sections">
+            <a href="#start">Getting started</a> ·
+            <a href="#survival">Survival</a> ·
+            <a href="#crafting">Crafting</a> ·
+            <a href="#exploring">Exploring</a> ·
+            <a href="#building">Building</a> ·
+            <a href="#uploads">Share files</a> ·
+            <a href="#feedback">Feedback</a> ·
+            <a href="#creators">Creator links</a>
+        </nav>
+
+        <section id="start">
+            <h2>Getting started</h2>
+            <p>In Survival, you gather resources, manage health and hunger, and protect yourself from hostile mobs. In Creative, you can fly and build with unlimited blocks. Choose a mode when creating your world.</p>
+            <ol>
+                <li>Break tree logs and turn them into planks in your inventory.</li>
+                <li>Use planks to make a crafting table, then craft basic tools.</li>
+                <li>Make a wooden pickaxe and mine stone for stronger stone tools.</li>
+                <li>Build a shelter before nightfall and light it with torches.</li>
+            </ol>
+        </section>
+
+        <section id="survival">
+            <h2>Survival basics</h2>
+            <ul>
+                <li><strong>Food:</strong> Gather crops, hunt animals, or fish. Cook food in a furnace for a useful supply.</li>
+                <li><strong>Light:</strong> Make torches with sticks and coal or charcoal to illuminate your base and caves.</li>
+                <li><strong>Rest:</strong> A bed lets you skip the night and sets your respawn point when you sleep.</li>
+                <li><strong>Prepare:</strong> Carry food, a weapon, a pickaxe, and spare blocks when travelling.</li>
+                <li><strong>Be careful:</strong> Watch your health, keep an eye out for mobs, and never dig straight down.</li>
+            </ul>
+        </section>
+
+        <section id="crafting">
+            <h2>Useful early items</h2>
+            <div class="table-wrap">
+                <table>
+                    <thead><tr><th>Item</th><th>Use</th></tr></thead>
+                    <tbody>
+                        <tr><td>Crafting table</td><td>Provides a larger crafting grid.</td></tr>
+                        <tr><td>Pickaxe</td><td>Mines stone and many ores.</td></tr>
+                        <tr><td>Furnace</td><td>Smelts ores and cooks food using fuel.</td></tr>
+                        <tr><td>Torches</td><td>Light your base, paths, and mines.</td></tr>
+                        <tr><td>Chest</td><td>Stores items so your inventory stays clear.</td></tr>
+                        <tr><td>Shield</td><td>Helps block incoming attacks.</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Use the recipe book in the inventory or crafting table to find recipes for items you have discovered.</p>
+        </section>
+
+        <section id="exploring">
+            <h2>Exploring and progressing</h2>
+            <p>Mark your route with landmarks or use a map so you can find your way back. Mine carefully and place torches as you go. Iron is a useful early resource for stronger tools and armor.</p>
+            <p>When ready for a bigger challenge, build a Nether portal with obsidian and light it with flint and steel. Bring armor, food, and supplies—the Nether is dangerous. You can also farm, trade with villagers, explore structures, or work toward finding the End.</p>
+        </section>
+
+        <section id="building">
+            <h2>Build a practical base</h2>
+            <p>Start with a lit, enclosed room containing a bed, crafting table, furnace, and chests. Keep valuables organized, add windows, and fence off crops or animals. Expand and decorate as you collect more blocks.</p>
+            <h2>Playing with friends</h2>
+            <p>Bedrock multiplayer works across supported devices and worlds. Play with people you trust, agree on shared rules, and review privacy settings before joining a server.</p>
+        </section>
+    </main>
+
+    <section id="uploads" aria-labelledby="uploads-heading">
+        <h2 id="uploads-heading">Share Minecraft files</h2>
+        <p>Share a Bedrock add-on, world, or texture pack with the community.</p>
+        <p class="upload-note">Submissions are saved in this browser and are visible on this device.</p>
+        <form class="upload-form" action="#" method="post" enctype="multipart/form-data">
+            <label for="upload-title">Title</label>
+            <input id="upload-title" name="title" type="text" maxlength="100" required>
+
+            <label for="upload-type">File type</label>
+            <select id="upload-type" name="type" required>
+                <option value="" disabled selected>Choose a type</option>
+                <option value="mod">Mod / add-on</option>
+                <option value="world">World</option>
+                <option value="texture-pack">Texture pack</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="upload-file">Choose a file</label>
+            <input id="upload-file" name="file" type="file" accept=".mcpack,.mcaddon,.mcworld,.zip,.7z" required>
+
+            <label for="upload-description">Description (optional)</label>
+            <textarea id="upload-description" name="description" rows="4" maxlength="500"></textarea>
+
+            <button type="submit">Submit file</button>
+        </form>
+        <div id="uploads-list" class="submission-list" aria-live="polite"></div>
+    </section>
+
+    <section id="feedback" aria-labelledby="feedback-heading">
+        <h2 id="feedback-heading">Leave feedback</h2>
+        <p>Visited the guide? Share what you think or suggest something to add.</p>
+        <p class="upload-note">Your feedback is submitted securely through FormBackend.</p>
+        <form class="upload-form" action="https://www.formbackend.com/f/680f601ffeef8fc9" method="post">
+            <label for="feedback-name">Name (optional)</label>
+            <input id="feedback-name" name="name" type="text" maxlength="80" autocomplete="name">
+
+            <label for="feedback-rating">How helpful was this guide?</label>
+            <select id="feedback-rating" name="rating" required>
+                <option value="" disabled selected>Choose a rating</option>
+                <option value="5">Very helpful</option>
+                <option value="4">Helpful</option>
+                <option value="3">Somewhat helpful</option>
+                <option value="2">Not very helpful</option>
+                <option value="1">Not helpful</option>
+            </select>
+
+            <label for="feedback-message">Your feedback</label>
+            <textarea id="feedback-message" name="message" rows="4" maxlength="1000" required></textarea>
+
+            <button type="submit">Send feedback</button>
+        </form>
+        <div id="feedback-list" class="submission-list" aria-live="polite"></div>
+    </section>
+
+    <section id="creators" aria-labelledby="creators-heading">
+        <h2 id="creators-heading">Minecraft creator links</h2>
+        <p>Share your Minecraft YouTube channel or social media profile so other players can find and follow you.</p>
+        <form class="upload-form" action="#" method="post">
+            <label for="creator-name">Channel or profile name</label>
+            <input id="creator-name" name="creator-name" type="text" maxlength="100" required>
+
+            <label for="creator-platform">Platform</label>
+            <select id="creator-platform" name="platform" required>
+                <option value="" disabled selected>Choose a platform</option>
+                <option value="youtube">YouTube</option>
+                <option value="tiktok">TikTok</option>
+                <option value="instagram">Instagram</option>
+                <option value="twitch">Twitch</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="creator-url">Link to your channel or profile</label>
+            <input id="creator-url" name="url" type="url" placeholder="https://" maxlength="500" required>
+
+            <button type="submit">Share my link</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Made By: MinecraftGamer45</p>
+        <p>Version 1.0</p>
+    </footer>
+    <script>
+        (() => {
+            const request = indexedDB.open("minecraft-guide-submissions", 1);
+            request.onupgradeneeded = () => request.result.createObjectStore("submissions", { keyPath: "id" });
+            const database = new Promise((resolve, reject) => {
+                request.onsuccess = () => resolve(request.result);
+                request.onerror = () => reject(request.error);
+            });
+
+            const save = async submission => {
+                const db = await database;
+                return new Promise((resolve, reject) => {
+                    const transaction = db.transaction("submissions", "readwrite");
+                    transaction.objectStore("submissions").put(submission);
+                    transaction.oncomplete = resolve;
+                    transaction.onerror = () => reject(transaction.error);
+                    transaction.onabort = () => reject(transaction.error);
+                });
+            };
+
+            const remove = async id => {
+                const db = await database;
+                return new Promise((resolve, reject) => {
+                    const transaction = db.transaction("submissions", "readwrite");
+                    transaction.objectStore("submissions").delete(id);
+                    transaction.oncomplete = resolve;
+                    transaction.onerror = () => reject(transaction.error);
+                    transaction.onabort = () => reject(transaction.error);
+                });
+            };
+
+            const getAll = async () => {
+                const db = await database;
+                return new Promise((resolve, reject) => {
+                    const getRequest = db.transaction("submissions").objectStore("submissions").getAll();
+                    getRequest.onsuccess = () => resolve(getRequest.result);
+                    getRequest.onerror = () => reject(getRequest.error);
+                });
+            };
+
+            const appendText = (parent, tag, text, className) => {
+                const element = document.createElement(tag);
+                element.textContent = text;
+                if (className) element.className = className;
+                parent.append(element);
+                return element;
+            };
+
+            const render = async () => {
+                try {
+                    const items = (await getAll()).sort((a, b) => b.createdAt - a.createdAt);
+                    const uploads = document.getElementById("uploads-list");
+                    const feedback = document.getElementById("feedback-list");
+                    uploads.replaceChildren();
+                    feedback.replaceChildren();
+                    const fileItems = items.filter(item => item.kind === "upload");
+                    const feedbackItems = items.filter(item => item.kind === "feedback");
+                    if (!fileItems.length) appendText(uploads, "p", "No files have been shared yet.", "upload-note");
+                    if (!feedbackItems.length) appendText(feedback, "p", "No feedback has been submitted yet.", "upload-note");
+
+                    fileItems.forEach(item => {
+                        const card = document.createElement("article");
+                        card.className = "submission-card";
+                        appendText(card, "h3", item.title);
+                        appendText(card, "p", `Type: ${item.fileType} · File: ${item.fileName}`);
+                        if (item.description) appendText(card, "p", item.description);
+                        if (item.file) {
+                            const link = appendText(card, "a", `Download ${item.fileName}`);
+                            link.href = URL.createObjectURL(item.file);
+                            link.download = item.fileName;
+                        }
+                        appendText(card, "p", new Date(item.createdAt).toLocaleString(), "upload-note");
+                        const deleteButton = appendText(card, "button", "Delete", "delete-button");
+                        deleteButton.type = "button";
+                        deleteButton.dataset.deleteId = item.id;
+                        uploads.append(card);
+                    });
+
+                    feedbackItems.forEach(item => {
+                        const card = document.createElement("article");
+                        card.className = "submission-card";
+                        appendText(card, "h3", item.name || "Anonymous");
+                        appendText(card, "p", `Rating: ${item.rating}/5`);
+                        appendText(card, "p", item.message);
+                        appendText(card, "p", new Date(item.createdAt).toLocaleString(), "upload-note");
+                        const deleteButton = appendText(card, "button", "Delete", "delete-button");
+                        deleteButton.type = "button";
+                        deleteButton.dataset.deleteId = item.id;
+                        feedback.append(card);
+                    });
+                } catch (error) {
+                    document.querySelectorAll(".submission-list").forEach(list => {
+                        list.textContent = "Submissions could not be loaded in this browser.";
+                    });
+                }
+            };
+
+            document.querySelectorAll(".submission-list").forEach(list => {
+                list.addEventListener("click", async event => {
+                    const button = event.target.closest("button[data-delete-id]");
+                    if (!button) return;
+                    const password = prompt("Enter the password to delete this submission:");
+                    if (password === null) return;
+                    if (password !== "456945") {
+                        alert("Incorrect password.");
+                        return;
+                    }
+                    button.disabled = true;
+                    try {
+                        await remove(button.dataset.deleteId);
+                        await render();
+                    } catch (error) {
+                        alert("The submission could not be deleted.");
+                        button.disabled = false;
+                    }
+                });
+            });
+
+            document.querySelector("#uploads form").addEventListener("submit", async event => {
+                event.preventDefault();
+                const form = event.currentTarget;
+                const values = new FormData(form);
+                const file = values.get("file");
+                const button = form.querySelector("button");
+                button.disabled = true;
+                try {
+                    await save({
+                        id: `${Date.now()}-${Math.random()}`, kind: "upload",
+                        title: values.get("title"), fileType: values.get("type"),
+                        fileName: file.name, file, description: values.get("description"), createdAt: Date.now()
+                    });
+                    form.reset();
+                    await render();
+                } catch (error) {
+                    alert("The file could not be saved in this browser. Try a smaller file or free up storage.");
+                } finally {
+                    button.disabled = false;
+                }
+            });
+
+            render();
+        })();
+    </script>
+    <style>
+        :root {
+            color-scheme: dark;
+            --text: #e7f1e8;
+            --muted: #a4b7a8;
+            --green: #a3ed74;
+            --line: rgba(174, 226, 151, .2);
+        }
+        * { box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 1.25rem;
+            color: var(--text);
+            background: radial-gradient(ellipse at 12% 0%, rgba(69, 128, 68, .28), transparent 38%),
+                        radial-gradient(ellipse at 92% 40%, rgba(44, 91, 74, .22), transparent 35%),
+                        linear-gradient(145deg, #101a1b, #172522 55%, #111a20);
+            font: 16px/1.7 system-ui, sans-serif;
+        }
+        header {
+            position: relative;
+            overflow: hidden;
+            padding: clamp(2rem, 7vw, 4.5rem);
+            border: 1px solid rgba(185, 238, 147, .35);
+            border-radius: 20px;
+            background: linear-gradient(120deg, #19472d, #28623a 55%, #193b35);
+            box-shadow: 0 20px 55px rgba(0, 0, 0, .35), inset 0 1px rgba(255, 255, 255, .12);
+        }
+        header::after {
+            content: "";
+            position: absolute;
+            width: 190px;
+            height: 190px;
+            right: -35px;
+            bottom: -95px;
+            border: 26px solid rgba(199, 255, 137, .13);
+            transform: rotate(45deg);
+            box-shadow: 0 0 0 20px rgba(199, 255, 137, .05);
+        }
+        header h1 {
+            position: relative;
+            z-index: 1;
+            margin: 0;
+            color: #f2ffe9;
+            font-size: clamp(2.25rem, 7vw, 4rem);
+            line-height: 1.08;
+            letter-spacing: -.045em;
+            text-shadow: 0 4px rgba(8, 34, 22, .35);
+        }
+        header p { position: relative; z-index: 1; max-width: 38rem; margin: 1rem 0 0; color: #d3ebd0; font-size: 1.1rem; }
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: .5rem;
+            margin: 1.5rem 0;
+            padding: .75rem;
+            border: 1px solid var(--line);
+            border-radius: 14px;
+            background: rgba(13, 27, 25, .86);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, .2);
+        }
+        nav a {
+            padding: .45rem .8rem;
+            border-radius: 9px;
+            color: #d8efd5;
+            text-decoration: none;
+            font-weight: 650;
+            transition: color .2s ease, background .2s ease, transform .2s ease;
+        }
+        nav a:hover, nav a:focus-visible { color: #102319; background: var(--green); transform: translateY(-2px); outline: none; }
+        section {
+            margin: 1.1rem 0;
+            padding: clamp(1.25rem, 4vw, 2rem);
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            background: linear-gradient(145deg, rgba(20, 39, 34, .94), rgba(19, 32, 31, .96));
+            box-shadow: 0 12px 30px rgba(0, 0, 0, .22);
+            scroll-margin-top: 1rem;
+        }
+        h2 { margin-top: 0; color: var(--green); font-size: 1.55rem; letter-spacing: -.02em; }
+        section h2:not(:first-child) { margin-top: 1.8rem; }
+        p, li { color: #d3dfd5; }
+        li { margin: .35rem 0; padding-left: .2rem; }
+        li::marker { color: var(--green); font-weight: 700; }
+        strong { color: #c4f29f; }
+        .table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: .75rem .85rem; border-bottom: 1px solid rgba(169, 222, 151, .14); text-align: left; }
+        th { color: #d9f6c8; background: rgba(88, 139, 74, .28); font-size: .9rem; letter-spacing: .04em; text-transform: uppercase; }
+        tbody tr { background: rgba(255, 255, 255, .015); transition: background .2s ease; }
+        tbody tr:nth-child(even) { background: rgba(255, 255, 255, .04); }
+        tbody tr:hover { background: rgba(145, 227, 111, .1); }
+        tbody tr:last-child td { border-bottom: 0; }
+        footer { padding: 1.5rem .5rem .25rem; color: var(--muted); text-align: center; font-size: .9rem; }
+        footer p { color: inherit; }
+        .upload-form { display: grid; gap: .65rem; max-width: 38rem; }
+        .upload-form label { color: #d9f6c8; font-weight: 650; }
+        .upload-form input, .upload-form select, .upload-form textarea {
+            width: 100%;
+            padding: .7rem .8rem;
+            border: 1px solid var(--line);
+            border-radius: 9px;
+            color: var(--text);
+            background: #142320;
+            font: inherit;
+        }
+        .upload-form input[type="file"] { padding: .55rem; }
+        .upload-form button {
+            justify-self: start;
+            margin-top: .4rem;
+            padding: .7rem 1rem;
+            border: 0;
+            border-radius: 9px;
+            color: #102319;
+            background: var(--green);
+            font: inherit;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        .upload-form button:hover, .upload-form button:focus-visible { background: #c4f29f; }
+        .upload-note { margin: .35rem 0 0; color: var(--muted); font-size: .9rem; }
+        .submission-list { display: grid; gap: .75rem; max-width: 38rem; margin-top: 1.25rem; }
+        .submission-card { padding: 1rem; border: 1px solid var(--line); border-radius: 10px; background: rgba(255, 255, 255, .025); }
+        .submission-card h3 { margin: 0; color: #c4f29f; }
+        .submission-card p { margin: .4rem 0; overflow-wrap: anywhere; }
+        .submission-card a { color: var(--green); }
+        .delete-button { margin-top: .5rem; padding: .45rem .75rem; border: 1px solid rgba(255, 150, 150, .45); border-radius: 8px; color: #ffe2e2; background: #542b2b; font: inherit; cursor: pointer; }
+        .delete-button:hover, .delete-button:focus-visible { background: #743838; }
+        .delete-button:disabled { opacity: .65; cursor: wait; }
+        .upload-form button:disabled { opacity: .65; cursor: wait; }
+        ::selection { color: #102319; background: #a8ed7e; }
+        @media (max-width: 600px) {
+            body { padding: 1rem .75rem; }
+            nav { gap: .3rem; }
+            nav a { padding: .4rem .6rem; font-size: .92rem; }
+            section { padding: 1.15rem; }
+            th, td { padding: .6rem; }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            *, *::before, *::after { transition-duration: .01ms !important; }
+        }
+    </style>
+</body>
+</html>
